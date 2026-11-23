@@ -1,13 +1,37 @@
+<div align="center">
+
 # ✈️ Jet Fury Extractor
 
 Extrait le mini-jeu d'avion caché de **Takeover 2** (« Jet Fury », scène `Bonus_Afterburner`)
 et en fait un jeu autonome qui démarre directement sur son écran « PRESS START ».
 
+![Jet Fury en 16:9](docs/combat_1920x1080.jpg)
+
 [**⬇️ Télécharger la dernière version**](../../releases/latest)
+
+</div>
 
 > Même principe que [9OsGP Extractor](https://github.com/MR-Lox/9OsGP-Extractor) : votre installation n'est jamais modifiée,
 > tout est copié dans un nouveau dossier (~5,5 Go), puis un petit module **JetBoot.dll** est déclaré
 > dans `ScriptingAssemblies.json` / `RuntimeInitializeOnLoads.json` pour rediriger vers la scène n° 26.
+
+<div align="center">
+
+## 📸 Captures
+
+![Écran PRESS START](docs/press_start.jpg)<br>
+<sub>Écran « PRESS START », avec le bezel de borne d'arcade</sub>
+
+![HUD écarté en 2560×1080](docs/combat_2560x1080.jpg)<br>
+<sub>2560×1080 (21:9) : HUD ramené à l'écran et écarté contre les bords du bezel</sub>
+
+![Sans bezel en 3440×1440](docs/sans_bezel_3440x1440.jpg)<br>
+<sub>3440×1440 sans bezel, HUD plaqué aux bords</sub>
+
+![Menu d'options, onglet HUD](docs/menu_hud.jpg)<br>
+<sub>Menu d'options (F1), onglet HUD</sub>
+
+</div>
 
 ## Utilisation
 
