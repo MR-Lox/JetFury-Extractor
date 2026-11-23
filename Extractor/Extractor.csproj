@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>JetFury_Extractor</AssemblyName>
+    <RootNamespace>Extractor</RootNamespace>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\JetBoot.dll" LogicalName="JetBoot.dll" />
+    <EmbeddedResource Include="Resources\unity default resources" LogicalName="unity default resources" Condition="'$(EmbedUnityResources)' == 'true' And Exists('Resources\unity default resources')" />
+  </ItemGroup>
+</Project>

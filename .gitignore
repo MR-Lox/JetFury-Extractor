@@ -1,0 +1,9 @@
+bin/
+obj/
+out/
+dist/
+*.pdb
+*.user
+.vs/
+# Fichier propriétaire Unity : jamais publié
+Extractor/Resources/unity default resources
